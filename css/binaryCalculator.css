@@ -1,0 +1,45 @@
+body {
+    width: 33%;
+
+}
+
+main {
+    width: 100%;
+}
+
+#res {
+    background-color: lightgray;
+    color: brown;
+    border: solid black;
+    height: 48px;
+    font-size: 20px;
+    overflow: hidden; /* Oculta o conteúdo que ultrapassa o tamanho da div */
+    word-wrap: break-word; 
+
+}
+
+.row {
+    width: 100%;
+}
+
+.btns {
+    width: 25%;
+    height: 36px;
+    font-size: 18px;
+    margin: 0px;
+    float: left;
+    color: red;
+}
+
+.operand {
+    background-color: black;
+}
+
+.executor {
+    background-color: darkgreen;
+    color: white;
+}
+
+.number {
+    background-color: lightgreen;
+}
